@@ -14,9 +14,6 @@
 
 	*/
 
-	 $var_1 = $_GET["usuario"];
-
-	 $var_2 = $_GET["clave"];
 
 
 	$data = BDD::QUERY("SELECT u.id,u.usuario,u.clave,r.descripcion as rol from usuario u join rol r on u.rol_id = r.id_rol where u.estado= 'A'");
