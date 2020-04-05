@@ -3,7 +3,7 @@
 class BDD
 {
     private static $SERVIDOR = "localhost";
-    private static $NAME_BASE = "peluqueria";
+    private static $NAME_BASE = "medianet";
     private static $NAME_USER = "root";
     private static $PASS = "password";
     public $conexion;
