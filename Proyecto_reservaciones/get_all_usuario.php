@@ -3,7 +3,7 @@ header('Content-type: application/json');
 require 'BASE/BDD.php';
 include "CORE/Usuario.php";
 
-$id = isset($_POST['usuario'])?$_POST['usuario']:null;
+$id = isset($_GET['usuario'])?$_GET['usuario']:null;
 
 if($id){
     $id = "where usuario='$id'";
